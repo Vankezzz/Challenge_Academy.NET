@@ -13,8 +13,6 @@ Result:
 2. Methods of SinglyLinkedList: Insert, Add, Remove, Clear, Contains
 3. UnitTests
 
-```cmd 
-```
 
 ## SecondCodingChallenge
 
