@@ -6,19 +6,19 @@ namespace FirstCodingChallenge
     {
         static void Main(string[] args)
         {
-            SinglyLinkedList<string> sl = new SinglyLinkedList<string>();
-            sl.Add("Tom");
-            sl.Add("Bob");
-            sl.Add("Alice");
-            sl.Add("Jack");
-            sl.Insert("1", 2);
+            SinglyLinkedList<int> sl = new SinglyLinkedList<int>();
+            sl.Add(1);
+            sl.Add(2);
+            sl.Add(3);
+            sl.Add(4);
+            sl.Insert(3, 2);
             foreach (var item in sl)
             {
                 Console.WriteLine(item);
             }
 
-            sl.Remove("Bob");
-            Console.WriteLine("\n После удаления: \n");
+            sl.Remove(1);
+            Console.WriteLine("\n After deleting: \n");
             foreach (var item in sl)
             {
                 Console.WriteLine(item);
