@@ -8,6 +8,13 @@ should take in two inputs: the value of the node and the position where the node
 The position will be a 1-based index meaning that the position of the head node will be 1. The
 position will never be the beginning (the head) or the end (the tail) of the list
 
+Result:
+1. Implementation IEnumerable
+2. Methods of SinglyLinkedList: Insert, Add, Remove, Clear, Contains
+3. UnitTests
+
+```cmd 
+```
 
 ## SecondCodingChallenge
 
